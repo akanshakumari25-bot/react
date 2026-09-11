@@ -1,3 +1,6 @@
+import ProfileCard from "./Profilcard"
+
+
 function App(){
   return (
   <>
@@ -6,10 +9,8 @@ function App(){
     <li>Javascript</li>
     <li>java </li>
     <li>C++</li>
-
-    
-    
     </ul>
+ <ProfileCard/>
   
   </>
   )
@@ -17,3 +18,4 @@ function App(){
 }
 
 export default App
+
