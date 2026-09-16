@@ -1,26 +1,26 @@
-// import ProductCard from "./components/ProductCard"
+import ProductCard from "./components/ProductCard"
 
-// function App(){
+function App(){
 
-// const Products =[
-// { id: 101, name: "Wireless Mouse", price: 29.99, inStock:true},
-// { id: 102, name: "Mechanical Keyboard", price: 89.99,inStock:false },
-// { id: 103, name: "USB-C Hub", price: 45.00,inStock:true }
-// ]
+const Products =[
+{ id: 101, name: "Wireless Mouse", price: 29.99, inStock:true},
+{ id: 102, name: "Mechanical Keyboard", price: 89.99,inStock:false },
+{ id: 103, name: "USB-C Hub", price: 45.00,inStock:true }
+]
 
-// return (
-//   <div>
-//     {Products.map((singleProduct)=>
-//     <ProductCard  key={singleProduct.id} name={singleProduct.name} price={singleProduct.price} inStock={singleProduct.inStock}/>
+return (
+  <div>
+    {Products.map((singleProduct)=>
+    <ProductCard  key={singleProduct.id} name={singleProduct.name} price={singleProduct.price} inStock={singleProduct.inStock}/>
     
     
-//     )}
+    )}
 
-//   </div>
-// )
-// }
+  </div>
+)
+}
 
-//  export default App;
+ export default App;
 
 
 
@@ -58,16 +58,18 @@
 
 
 
-import Child from "./components/Child";
+// import Child from "./components/Child";
 
-function App(){
+// function App(){
 
-  return(
-    <div>
-      <Child title="Hello World"  description="this is the description"/>
-    </div>
-  )
+//   return(
+//     <div>
+//       <Child title="Hello World"  description="this is the description"/>
+//     </div>
+//   )
 
-}
+// }
 
-export default App;
+// export default App;
+
+
