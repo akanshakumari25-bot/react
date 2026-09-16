@@ -1,43 +1,50 @@
-import ProductCard from "./components/Product";
+import JobCard from "./components/JobCard"
 
-const products =[
-{
-    id: 101,
-    name: "Wireless Mouse",
-    price: 29.99,
-},
-{
-  id: 102, 
-  name: "Mechanical Keyboard", 
-  price: 89.99 
-},
-{
-   id: 103,
-    name: "USB-C Hub", 
-    price: 45.00
 
- },
+
+const Jobs =[
+
+{ id: 1, 
+  title: "Frontend Dev", 
+  company: "TechCorp", 
+  location: "Remote", 
+  isNew: true, 
+},
+{ id: 2, 
+  title: "Backend Dev", 
+  company: "Google",
+   location: "Delhi", 
+   isNew: false, 
+  },
+  { id: 3, 
+    title: "React Developer", 
+    company: "Microsoft", 
+    location: "Pune", 
+    isNew: true,
+   },
 
 ]
 
 
-function App() {
-  return (
-    <div>
-
-      <div className="products">
-        {products.map((product) => (
-          <div key={product.id}>
-            <ProductCard
-              name={product.name}
-              price={product.price}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-
-export default App;
+function JobBoard() { 
+  return ( 
+  <div> 
+    <h1>Job Board</h1>
+     {Jobs.map((job) => ( 
+      <JobCard key={job.id} 
+      title={job.title} 
+      company={job.company} 
+      location={job.location}
+       isNew={job.isNew} 
+       /> 
+      ))} 
+      </div> 
+      ); 
+    }
+    
+    function App() { 
+      return <JobBoard
+       />;
+     } 
+     
+     export default App;
