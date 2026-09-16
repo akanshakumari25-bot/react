@@ -28,5 +28,15 @@
   
 }
 
+.JobBox{
+  border: 1px solid gray;
+     padding: 20px;
+     margin: 20px;
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 50px;
+
+}
+
 
 
