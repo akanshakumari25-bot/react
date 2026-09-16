@@ -1,27 +1,27 @@
-import ProductCard from "./ProductCard";
+// import ProductCard from "./ProductCard";
 
-function ProductList({products}){
-    return(
+// function ProductList({products}){
+//     return(
 
-        <div> 
-            {products.map((singleProduct) =>(
-                <ProductCard key ={singleProduct.id} product ={singleProduct}/>
-
-
-            ))}
-        </div>
-    )
+//         <div> 
+//             {products.map((singleProduct) =>(
+//                 <ProductCard key ={singleProduct.id} product ={singleProduct}/>
 
 
-}
+//             ))}
+//         </div>
+//     )
 
 
+// }
 
 
 
 
 
 
-export default ProductList;
+
+
+// export default ProductList;
 
 
