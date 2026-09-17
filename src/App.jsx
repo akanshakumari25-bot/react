@@ -134,23 +134,40 @@
 // export default App;
 
 
-import Counter from "./components/Counter";
-import ThemeToggle from "./components/ThemeToggle";
+// import Counter from "./components/Counter";
+// import ThemeToggle from "./components/ThemeToggle";
+
+// function App(){
+//   return(
+//     <div>
+//      <Counter/>
+//      <ThemeToggle/>
+//     </div>
+//   )
+// }
+
+
+
+
+
+
+
+// export default App;
+
+
+import InteractiveForm from "./components/InteractiveForm";
 
 function App(){
-  return(
-    <div>
-     <Counter/>
-     <ThemeToggle/>
-    </div>
-  )
+
+ return (
+
+  <div>
+    <InteractiveForm/>
+  </div>
+ )
+
+
+
 }
 
-
-
-
-
-
-
 export default App;
-
