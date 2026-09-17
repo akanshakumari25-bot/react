@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function ThemeToggle(){
 
-let [isDarkMode,setIsDarkMode]= useState()
+let [isDarkMode,setIsDarkMode]= useState(false )
 
 
 let checkToggle =()=>{
