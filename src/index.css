@@ -13,7 +13,7 @@
 } */ 
 
 
-.box{
+/* .box{
      border: 1px solid gray;
      padding: 20px;
      margin: 20px;
@@ -35,6 +35,43 @@
     width: 400px;
     border-radius: 10px;
     padding-left: 50px;
+
+} */
+
+.Counter{
+    border: 1px solid gray;
+     padding: 10px;
+     margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.dark{
+     border: 1px solid gray;
+     padding: 10px;
+     margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: center;
+    background-color:rgb(88, 86, 86);
+    color: white;
+
+}
+
+.light{
+     border: 1px solid gray;
+     padding: 10px;
+     margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: rgb(224, 230, 210);
+    color:black;
 
 }
 

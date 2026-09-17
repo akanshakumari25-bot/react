@@ -1,26 +1,26 @@
-import ProductCard from "./components/ProductCard"
+// import ProductCard from "./components/ProductCard"
 
-function App(){
+// function App(){
 
-const Products =[
-{ id: 101, name: "Wireless Mouse", price: 29.99, inStock:true},
-{ id: 102, name: "Mechanical Keyboard", price: 89.99,inStock:false },
-{ id: 103, name: "USB-C Hub", price: 45.00,inStock:true }
-]
+// const Products =[
+// { id: 101, name: "Wireless Mouse", price: 29.99, inStock:true},
+// { id: 102, name: "Mechanical Keyboard", price: 89.99,inStock:false },
+// { id: 103, name: "USB-C Hub", price: 45.00,inStock:true }
+// ]
 
-return (
-  <div>
-    {Products.map((singleProduct)=>
-    <ProductCard  key={singleProduct.id} name={singleProduct.name} price={singleProduct.price} inStock={singleProduct.inStock}/>
+// return (
+//   <div>
+//     {Products.map((singleProduct)=>
+//     <ProductCard  key={singleProduct.id} name={singleProduct.name} price={singleProduct.price} inStock={singleProduct.inStock}/>
     
     
-    )}
+//     )}
 
-  </div>
-)
-}
+//   </div>
+// )
+// }
 
- export default App;
+//  export default App;
 
 
 
@@ -71,5 +71,86 @@ return (
 // }
 
 // export default App;
+// import DashBoard from "./components/DashBoard";
 
+
+// function App(){
+
+
+//   return(
+//     <div>
+//   <DashBoard  isLoggedIn={false} isAdmin={true} hasError={flase}    />
+
+//  </div>
+//   )
+// }
+
+// export default App;
+
+// import{useState} from 'react'
+
+
+
+// function App(){
+
+//  const [data ,setData] = useState(50)
+
+
+
+
+// //  const handler = (name,age,location) =>{
+
+// //   alert(`you have clicked the button ${name} ${age} ${location}`);
+// //  }
+ 
+// let handleClick = ()=>{
+//   setData(data+1);
+
+
+// }
+
+// let handlerCheck =()=>{
+//   setData(data-1);
+// }
+
+
+
+
+//   return(
+// <div>
+//   <h1>Data:{data}</h1>
+//   {/* <button onClick={ () => handler("Akansha",25,"Delhi")}>Click me</button> */}
+//   {<button onClick={handleClick}>+</button>}
+//     {<button onClick={handlerCheck}>-</button>}
+
+
+
+//     <h1>Hello React js </h1>;
+
+// </div>
+//   )
+// }
+
+// export default App;
+
+
+import Counter from "./components/Counter";
+import ThemeToggle from "./components/ThemeToggle";
+
+function App(){
+  return(
+    <div>
+     <Counter/>
+     <ThemeToggle/>
+    </div>
+  )
+}
+
+
+
+
+
+
+
+export default App;
 
